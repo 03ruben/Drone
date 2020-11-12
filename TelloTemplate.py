@@ -65,7 +65,8 @@ try:
         sendmsg('command')
         sendmsg('takeoff')
 
-        square
+        #square()
+        Flip()
 
         #Make a Square within a for loop
         for i in range(4):
