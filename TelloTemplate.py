@@ -43,6 +43,12 @@ recvThread.start()
 
 # CREATE FUNCTIONS HERE....
 
+#Square Function with a for loop
+
+        for i in range(4):
+            sendmsg('forward 100')
+            sendmsg('ccw 90')
+
 
 print("\nRuben Ladkrood: ")
 print("Program Name:Drone flying school: ")
@@ -56,15 +62,17 @@ try:
     if ready.lower() == 'yes':
         print("\nStarting Drone!\n")
 
-        sendmsg('command', 0)
+        sendmsg('command')
         sendmsg('takeoff')
+
+        square
 
         #Make a Square within a for loop
         for i in range(4):
             sendmsg('forward 100')
             sendmsg('ccw 90')
 
-            
+
             sendmsg('land')
         # Review the (SDK) Software Development Kit resource for Drone Commands
         # Delete these comments before writing your program
