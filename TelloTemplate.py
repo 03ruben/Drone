@@ -42,7 +42,19 @@ recvThread.start()
 
 
 # CREATE FUNCTIONS HERE....
+#Drones mission through first hula hoop
 
+
+
+#Drones mission through Second hula hoop
+
+
+
+#Drones mission through third hula hoop
+
+
+
+#Drones mission through fourth hula hoop
 #Square Function with a for loop
 
         for i in range(4):
